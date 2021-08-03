@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">  
+  <title>Знакомство с пользователем</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Пожалуйста, заполните поля:</h1> 
+    <form> 
+      <label class="attn-message hidden">*поле обязательное для заполнения</label>
+        <ul class="steps">
+          <li class="steps__item-1 show" data-step="1">
+            <input id="name" type="text" name="name" placeholder="Имя">  
+          </li>
+          <li class="steps__item-2 hide" data-step="2">
+            <input id="surname" type="text" name="surname" placeholder="Фамилия">  
+          </li>
+          <li class="steps__item-3 hide" data-step="3">
+            <input id="email" type="text" name="email" placeholder="почта">  
+          </li>
+          <li class="steps__item-4 hide" data-step="4">
+            <p id="thanks" >Спасибо!</p>
+          </li>
+        </ul>
+
+        <ul class="buttons">
+          <li class="buttons__item-1 hide" data-step="1">
+            <input id="prev" value="назад" type="button">
+          </li>
+          <li class="buttons__item-2 show" data-step="2">
+            <input id="next" value="далее" type="button">
+          </li>
+          <li class="buttons__item-3 hide" data-step="3">
+            <input id="new-message" value="новый запрос" type="button">
+          </li> 
+        </ul>
+    </form>
+  </main>
+  <script src="javascript.js"></script>
+</body>
+</html>

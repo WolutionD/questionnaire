@@ -1,0 +1,63 @@
+main {
+  margin-left: 20px;
+}
+
+form {
+  width: 35%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+input {
+  display: inline;
+}
+
+h1 {
+  font-size: large;
+  font-weight: normal;
+}
+
+ul {
+  margin-top: 0px;
+  padding: 0;
+  height: 21px;
+}
+
+.attn-message {
+  color: red;
+}
+
+.steps,
+.buttons {
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+p {
+  display: inline;
+  height: 21px;
+}
+
+.problem {
+  outline: 1px solid red;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
